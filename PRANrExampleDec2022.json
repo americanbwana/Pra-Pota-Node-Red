@@ -39,10 +39,10 @@
             "4a0745f346aa72f1",
             "228b071b1b8dbacd"
         ],
-        "x": null,
-        "y": null,
-        "w": null,
-        "h": null
+        "x": 14,
+        "y": 199,
+        "w": 912,
+        "h": 362
     },
     {
         "id": "3c4c5df667217faa",
@@ -56,10 +56,10 @@
             "426a619c3b098feb",
             "73515fdd0cf3bfe7"
         ],
-        "x": null,
-        "y": null,
-        "w": null,
-        "h": null
+        "x": 274,
+        "y": 39,
+        "w": 252,
+        "h": 122
     },
     {
         "id": "bea4993f.85f4d8",
@@ -199,15 +199,6 @@
         "hidden": false
     },
     {
-        "id": "8f4542aa.faf2",
-        "type": "ui_tab",
-        "name": "Web Page 2",
-        "icon": "wi-wu-tstorms",
-        "order": 8,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "b1cd10a7.e2eab",
         "type": "ui_group",
         "name": "Spots by mode",
@@ -235,17 +226,6 @@
         "name": "Blitzunorg 1",
         "tab": "4bc17c6e.b74934",
         "order": 2,
-        "disp": false,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "c9165343995892c6",
-        "type": "ui_group",
-        "name": "Bliztunorg 2",
-        "tab": "8f4542aa.faf2",
-        "order": 1,
         "disp": false,
         "width": "6",
         "collapse": false,
@@ -448,10 +428,7 @@
         "x": 1430,
         "y": 440,
         "wires": [
-            [
-                "ad6705278566bdb4",
-                "a4809ae1d8a652a1"
-            ]
+            []
         ]
     },
     {
@@ -1101,8 +1078,9 @@
         "id": "26076086bf8fc333",
         "type": "ui_audio",
         "z": "1508a3e4153b14d5",
+        "g": "3d64281ef79e1ad0",
         "name": "",
-        "group": "e357ef02.ef3cb",
+        "group": "812bdcd1b6879589",
         "voice": "Microsoft Zira - English (United States)",
         "always": true,
         "x": 840,
@@ -1113,6 +1091,7 @@
         "id": "67e839020acdecde",
         "type": "ui_ui_control",
         "z": "1508a3e4153b14d5",
+        "g": "3d64281ef79e1ad0",
         "name": "",
         "events": "all",
         "x": 220,
@@ -1127,6 +1106,7 @@
         "id": "e3a5c21d8df5db34",
         "type": "ui_template",
         "z": "1508a3e4153b14d5",
+        "g": "3d64281ef79e1ad0",
         "group": "812bdcd1b6879589",
         "name": "addToOneGrpPerDashboardPage",
         "order": 19,
@@ -1150,6 +1130,7 @@
         "id": "082989859eb6f588",
         "type": "ui_template",
         "z": "1508a3e4153b14d5",
+        "g": "3d64281ef79e1ad0",
         "group": "b1cd10a7.e2eab",
         "name": "addToOneGrpPerDashboardPage",
         "order": 19,
@@ -1171,6 +1152,7 @@
         "id": "426a619c3b098feb",
         "type": "ui_template",
         "z": "1508a3e4153b14d5",
+        "g": "3c4c5df667217faa",
         "group": "e357ef02.ef3cb",
         "name": "Lightning/Clock",
         "order": 2,
