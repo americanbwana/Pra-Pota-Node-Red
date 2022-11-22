@@ -1,0 +1,1171 @@
+[
+    {
+        "id": "2b4a86d0868491eb",
+        "type": "tab",
+        "label": "POTA",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1508a3e4153b14d5",
+        "type": "tab",
+        "label": "Blitzunorg Template",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3d64281ef79e1ad0",
+        "type": "group",
+        "z": "1508a3e4153b14d5",
+        "name": "Blitzuntorg Lightning Detector",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1041bd1a461c3d0f",
+            "cf5e508a778ca2f1",
+            "d4ab2e7a058efa52",
+            "c5e94b65587a5ecf",
+            "748b3a057a000196",
+            "26076086bf8fc333",
+            "d2a708f3187a47cd",
+            "0513a57b4e4d0dcd",
+            "e3a5c21d8df5db34",
+            "082989859eb6f588",
+            "67e839020acdecde",
+            "cc7cb9c32180cb28",
+            "4a0745f346aa72f1",
+            "228b071b1b8dbacd"
+        ],
+        "x": 0,
+        "y": 0
+    },
+    {
+        "id": "3c4c5df667217faa",
+        "type": "group",
+        "z": "1508a3e4153b14d5",
+        "name": "update Toolbar",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "426a619c3b098feb",
+            "73515fdd0cf3bfe7"
+        ],
+        "x": 0,
+        "y": 0
+    },
+    {
+        "id": "bea4993f.85f4d8",
+        "type": "websocket-client",
+        "path": "wss://ws7.blitzortung.org/",
+        "tls": "621bc3fe.d747dc",
+        "wholemsg": "false",
+        "hb": "0",
+        "subprotocol": ""
+    },
+    {
+        "id": "621bc3fe.d747dc",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "",
+        "keyname": "",
+        "caname": "",
+        "servername": "",
+        "verifyservercert": false
+    },
+    {
+        "id": "685745d9a77a7aeb",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "4640c0fb.326128",
+        "type": "ui_tab",
+        "name": "POTA SPOTS",
+        "icon": "fa-solid fa-rocket",
+        "order": 7,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "4bc17c6e.b74934",
+        "type": "ui_tab",
+        "name": "Web Page 1",
+        "icon": "wi-wu-tstorms",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b1cd10a7.e2eab",
+        "type": "ui_group",
+        "name": "Spots by mode",
+        "tab": "4640c0fb.326128",
+        "order": 6,
+        "disp": true,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "812bdcd1b6879589",
+        "type": "ui_group",
+        "name": "Spots by band",
+        "tab": "4640c0fb.326128",
+        "order": 2,
+        "disp": true,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e357ef02.ef3cb",
+        "type": "ui_group",
+        "name": "Blitzunorg 1",
+        "tab": "4bc17c6e.b74934",
+        "order": 2,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f9ed3b0b.0726c8",
+        "type": "inject",
+        "z": "2b4a86d0868491eb",
+        "name": "Every 2 mins",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "120",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 440,
+        "wires": [
+            [
+                "b9746139.dc1ea"
+            ]
+        ]
+    },
+    {
+        "id": "b9746139.dc1ea",
+        "type": "http request",
+        "z": "2b4a86d0868491eb",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://api.pota.app/spot/activator",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 390,
+        "y": 440,
+        "wires": [
+            [
+                "8ab6a6b6.193008",
+                "0cc381696e192be0"
+            ]
+        ]
+    },
+    {
+        "id": "a39eb29.44da95",
+        "type": "comment",
+        "z": "2b4a86d0868491eb",
+        "name": "POTA Spotting Network -  https://api.pota.app/spot/activato r",
+        "info": "",
+        "x": 350,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "b6dbdd91.34748",
+        "type": "function",
+        "z": "2b4a86d0868491eb",
+        "name": "Format Spot",
+        "func": "\nlet type = \"spot\";\nlet spotID = msg.payload.spotId;\nlet freq = msg.payload.frequency;\nlet call = msg.payload.activator;\nlet comment = msg.payload.comments;\nlet x = msg.payload.spotTime.replace(\":\",\"\");\nlet time = x.substr(11,4)+\"Z\";\nlet qthstatus = \"\";\nlet source = \"PO\";\nlet state = msg.payload.state;\nlet calllength = call.length;\nlet parkref = msg.payload.reference;\nlet parkname = msg.payload.parkName;\n\nreturn {payload : {type:type,spotID:spotID,freq:freq,call:call,comment:comment,time:time,qthstatus:qthstatus,source:source,\nstate:state,calllength:calllength,parkref:parkref,parkname:parkname}};\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1210,
+        "y": 440,
+        "wires": [
+            [
+                "af418ce6.31d9b",
+                "10f3f9f4195aff4b"
+            ]
+        ]
+    },
+    {
+        "id": "8ab6a6b6.193008",
+        "type": "split",
+        "z": "2b4a86d0868491eb",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 550,
+        "y": 440,
+        "wires": [
+            [
+                "52da224e.7c358c",
+                "26dbb183908c0b31",
+                "0ea1695d9a5b3dcf",
+                "55115c1a87908ae7"
+            ]
+        ]
+    },
+    {
+        "id": "52da224e.7c358c",
+        "type": "debug",
+        "z": "2b4a86d0868491eb",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "af418ce6.31d9b",
+        "type": "debug",
+        "z": "2b4a86d0868491eb",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1430,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "97d14070.d7033",
+        "type": "switch",
+        "z": "2b4a86d0868491eb",
+        "name": "US or CAN",
+        "property": "payload.locationDesc",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "US-",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "CA-",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 850,
+        "y": 440,
+        "wires": [
+            [
+                "2a5f2b17.aec8a4"
+            ],
+            [
+                "53434631.8ab898"
+            ]
+        ]
+    },
+    {
+        "id": "bac2117e.a6dec",
+        "type": "debug",
+        "z": "2b4a86d0868491eb",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1190,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "10f3f9f4195aff4b",
+        "type": "function",
+        "z": "2b4a86d0868491eb",
+        "name": "Table Format",
+        "func": "let spot = msg.payload\n\nlet freq = spot.freq;\nlet call = spot.call;\nlet comment = spot.comment;\nlet time = spot.time\nlet state = spot.state;\nlet parkref = spot.parkref;\nlet parkname = spot.parkname;\n\n\nreturn {payload:{\n    command:\"addData\",\n    arguments:[\n        {\n            freq:freq,call:call,comment:comment,time:time,state:state,parkref:parkref,parkname:parkname\n        },\n        true\n    ],\n    returnPromise:true\n    }\n};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1430,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6f6c05e7d8c5e40c",
+        "type": "comment",
+        "z": "2b4a86d0868491eb",
+        "name": "SOTA Spotting API",
+        "info": "",
+        "x": 240,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "26dbb183908c0b31",
+        "type": "switch",
+        "z": "2b4a86d0868491eb",
+        "name": "",
+        "property": "payload.count",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "2",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 690,
+        "y": 440,
+        "wires": [
+            [
+                "97d14070.d7033",
+                "b20bf2635961f79d"
+            ]
+        ]
+    },
+    {
+        "id": "b20bf2635961f79d",
+        "type": "debug",
+        "z": "2b4a86d0868491eb",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "0cc381696e192be0",
+        "type": "debug",
+        "z": "2b4a86d0868491eb",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "0ea1695d9a5b3dcf",
+        "type": "function",
+        "z": "2b4a86d0868491eb",
+        "name": "Format Map Icon",
+        "func": "// msg.payload = { \"name\": \"Jason\", \"lat\": 51.05, \"lon\": -1.35 }\nlet call = msg.payload.activator;\nlet lat = msg.payload.latitude;\nlet lon = msg.payload.longitude;\nlet name = msg.payload.name; // park name\nlet mode = msg.payload.mode; \nlet reference = msg.payload.reference;\nlet frequency = msg.payload.frequency;\n\nlet iconColor = \"\";\nif (mode == \"CW\") {\n    iconColor = \"#6E8F3A\"\n} else if (mode == \"SSB\") {\n    iconColor = \"#3A7D8F\"\n} else if ( mode == \"DATA\") {\n    iconColor = \"#563A8F\"\n} else if ( mode == \"FT8\") { \n    iconColor = \"#8F3A86\"\n} else if ( mode == \"FT4\") {\n    iconColor = \"#C4236D\"\n} else if ( mode ==  \"JS8\") {\n    iconColor = \"#C4236D\"\n} else {\n    iconColor = \"#F71C05\"\n}\n\nmsg.payload = { \"name\": reference,\"Park\": name,  \"lat\": lat, \"lon\": lon, \"ttl\": 600, \"iconColor\": iconColor, \"Call\": call, \"Mode\": mode};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 700,
+        "wires": [
+            [
+                "ca2a5f37c681838b",
+                "3c2b0c7587706aac"
+            ]
+        ]
+    },
+    {
+        "id": "3c2b0c7587706aac",
+        "type": "debug",
+        "z": "2b4a86d0868491eb",
+        "name": "spots debug",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1090,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "ae6b1af837605bfc",
+        "type": "inject",
+        "z": "2b4a86d0868491eb",
+        "name": "addModeLegend",
+        "props": [
+            {
+                "p": "payload.command",
+                "v": "{ \"legend\": \"<b>Mode</b></br><i style=\\\"background: #6E8F3A\\\"></i> CW<br><i style=\\\"background: #3A7D8F\\\"></i> SSB<br><i style=\\\"background: #563A8F\\\"></i> Data<br><i style=\\\"background: #8F3A86\\\"></i> FT8<br><i style=\\\"background: #C4236D\\\"></i> FT4<br><i style=\\\"background: #C4236D\\\"></i> JS8<br><i style=\\\"background: #F71C05\\\"></i> Other<br>\" }",
+                "vt": "json"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "3",
+        "topic": "addLegend",
+        "x": 810,
+        "y": 560,
+        "wires": [
+            [
+                "ca2a5f37c681838b",
+                "509d3101b0ce8d5a"
+            ]
+        ]
+    },
+    {
+        "id": "509d3101b0ce8d5a",
+        "type": "debug",
+        "z": "2b4a86d0868491eb",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "8f025df96b051986",
+        "type": "inject",
+        "z": "2b4a86d0868491eb",
+        "name": "",
+        "props": [
+            {
+                "p": "payload.command.map",
+                "v": "{     \"overlay\": \"NowCoast\",     \"url\": \"https://nowcoast.noaa.gov/arcgis/services/nowcoast/radar_meteo_imagery_nexrad_time/MapServer/WmsServer?\",     \"opt\": {         \"layers\": \"1\",         \"format\": \"image/png\",         \"transparent\": true,         \"attribution\": \"NOAA/NWS\"     },     \"wms\": true }",
+                "vt": "json"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "addNextRadLayer",
+        "x": 850,
+        "y": 900,
+        "wires": [
+            [
+                "ca2a5f37c681838b",
+                "edc9c867af116bec",
+                "4152b7e5021bc8f9"
+            ]
+        ]
+    },
+    {
+        "id": "edc9c867af116bec",
+        "type": "debug",
+        "z": "2b4a86d0868491eb",
+        "name": "Add NextRad Layer",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1170,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "55115c1a87908ae7",
+        "type": "function",
+        "z": "2b4a86d0868491eb",
+        "name": "Format spot band",
+        "func": "// msg.payload = { \"name\": \"Jason\", \"lat\": 51.05, \"lon\": -1.35 }\nlet call = msg.payload.activator;\nlet lat = msg.payload.latitude;\nlet lon = msg.payload.longitude;\nlet name = msg.payload.name; // park name\nlet mode = msg.payload.mode;\nlet reference = msg.payload.reference;\nlet frequency = parseInt(msg.payload.frequency);\n// console.log(frequency);\n\nlet iconColor = \"\";\n\nif ( frequency > 1800 && frequency < 2000 ) {\n    iconColor = \"#FF5233\";\n} else if  (frequency > 3500 && frequency < 4000) {\n    iconColor = \"#FF9C33\";\n} else if (frequency > 5332 && frequency < 5410) {\n    iconColor = \"#F3FF33\";\n} else if (frequency > 7000 && frequency < 7300) {\n    iconColor = \"#AFFF33\";\n} else if (frequency > 10100 && frequency < 10150) {\n    iconColor = \"#33FFFC\";\n} else if (frequency > 14000 && frequency < 14350) {\n    iconColor = \"#337AFF\";\n} else if (frequency > 18068 && frequency < 18108) {\n    iconColor = \"#A233FF\";\n} else if (frequency > 21000 && frequency < 21450) {\n    iconColor = \"#EC33FF\";\n} else if (frequency > 24890 && frequency < 24990) {\n    iconColor = \"#FF33A8\";\n} else if (frequency > 28000 && frequency < 29700) {\n    iconColor = \"#FF3364\";\n} else if (frequency > 50000 && frequency < 54000) {\n    iconColor = \"#FF3333\";\n} else {\n    iconColor = \"#080000\"\n}\n// console.log(iconColor);\nmsg.payload = { \"name\": reference, \"Park\": name, \"lat\": lat, \"lon\": lon, \"ttl\": 600, \"iconColor\": iconColor, \"Call\": call, \"Mode\": mode, \"Freq\": frequency };\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 760,
+        "wires": [
+            [
+                "4152b7e5021bc8f9"
+            ]
+        ]
+    },
+    {
+        "id": "143c9e748067ec8f",
+        "type": "inject",
+        "z": "2b4a86d0868491eb",
+        "name": "addBandLengend",
+        "props": [
+            {
+                "p": "payload.command",
+                "v": "{ \"legend\": \"<b>Band</b></br><i style=\\\"background: #FF5233\\\"></i> 160<br><i style=\\\"background: #FF9C33\\\"></i> 80<br><i style=\\\"background: #F3FF33\\\"></i> 60<br><i style=\\\"background: #AFFF33\\\"></i> 40<br><i style=\\\"background: #33FFFC\\\"></i> 30<br><i style=\\\"background: #337AFF\\\"></i> 20<br><i style=\\\"background: #A233FF\\\"></i> 17<br><i style=\\\"background: #A233FF\\\"></i> 15<br><i style=\\\"background: #FF33A8\\\"></i> 12<br><i style=\\\"background: #FF3364\\\"></i> 10<br><i style=\\\"background: #FF3333\\\"></i> 6<br><i style=\\\"background: #080000\\\"></i> Other<br>\" }",
+                "vt": "json"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "4",
+        "topic": "addBandLegend",
+        "x": 810,
+        "y": 620,
+        "wires": [
+            [
+                "4152b7e5021bc8f9"
+            ]
+        ]
+    },
+    {
+        "id": "ad6705278566bdb4",
+        "type": "ui_iframe",
+        "z": "2b4a86d0868491eb",
+        "group": "b1cd10a7.e2eab",
+        "name": "bymode",
+        "order": 1,
+        "width": "16",
+        "height": "12",
+        "url": "/worldmap",
+        "origin": "*",
+        "scale": "80",
+        "x": 1660,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a4809ae1d8a652a1",
+        "type": "ui_iframe",
+        "z": "2b4a86d0868491eb",
+        "group": "812bdcd1b6879589",
+        "name": "Spots by band",
+        "order": 3,
+        "width": "16",
+        "height": "12",
+        "url": "/byband",
+        "origin": "*",
+        "scale": "80",
+        "x": 1680,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ca2a5f37c681838b",
+        "type": "worldmap",
+        "z": "2b4a86d0868491eb",
+        "name": "Pota Spots By Mode",
+        "lat": "39.50",
+        "lon": "-104.90",
+        "zoom": "3",
+        "layer": "OSMG",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "true",
+        "coords": "none",
+        "showgrid": "false",
+        "showruler": "false",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "DN",
+        "maplist": "OSMG",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 1100,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "4152b7e5021bc8f9",
+        "type": "worldmap",
+        "z": "2b4a86d0868491eb",
+        "name": "Spots by band",
+        "lat": "39.55",
+        "lon": "-104.60",
+        "zoom": "3",
+        "layer": "OSMG",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "false",
+        "coords": "none",
+        "showgrid": "false",
+        "showruler": "false",
+        "allowFileDrop": "false",
+        "path": "/byband",
+        "overlist": "RA,DN",
+        "maplist": "OSMG",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 1120,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "2a5f2b17.aec8a4",
+        "type": "string",
+        "z": "2b4a86d0868491eb",
+        "name": "Format State",
+        "methods": [
+            {
+                "name": "replaceAll",
+                "params": [
+                    {
+                        "type": "str",
+                        "value": ",US-"
+                    },
+                    {
+                        "type": "str",
+                        "value": ","
+                    }
+                ]
+            },
+            {
+                "name": "replaceAll",
+                "params": [
+                    {
+                        "type": "str",
+                        "value": "US-"
+                    },
+                    {
+                        "type": "str",
+                        "value": ""
+                    }
+                ]
+            }
+        ],
+        "prop": "payload.locationDesc",
+        "propout": "payload.state",
+        "object": "msg",
+        "objectout": "msg",
+        "x": 1010,
+        "y": 420,
+        "wires": [
+            [
+                "b6dbdd91.34748",
+                "bac2117e.a6dec"
+            ]
+        ]
+    },
+    {
+        "id": "53434631.8ab898",
+        "type": "string",
+        "z": "2b4a86d0868491eb",
+        "name": "Format Prov",
+        "methods": [
+            {
+                "name": "chompLeft",
+                "params": [
+                    {
+                        "type": "str",
+                        "value": "CA-"
+                    }
+                ]
+            },
+            {
+                "name": "chompRight",
+                "params": [
+                    {
+                        "type": "str",
+                        "value": ","
+                    }
+                ]
+            }
+        ],
+        "prop": "payload.locationDesc",
+        "propout": "payload.state",
+        "object": "msg",
+        "objectout": "msg",
+        "x": 1010,
+        "y": 460,
+        "wires": [
+            [
+                "b6dbdd91.34748"
+            ]
+        ]
+    },
+    {
+        "id": "1041bd1a461c3d0f",
+        "type": "inject",
+        "z": "1508a3e4153b14d5",
+        "g": "3d64281ef79e1ad0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 240,
+        "wires": [
+            [
+                "cc7cb9c32180cb28"
+            ]
+        ]
+    },
+    {
+        "id": "cf5e508a778ca2f1",
+        "type": "websocket out",
+        "z": "1508a3e4153b14d5",
+        "g": "3d64281ef79e1ad0",
+        "name": "",
+        "server": "",
+        "client": "bea4993f.85f4d8",
+        "x": 630,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "d4ab2e7a058efa52",
+        "type": "websocket in",
+        "z": "1508a3e4153b14d5",
+        "g": "3d64281ef79e1ad0",
+        "name": "",
+        "server": "",
+        "client": "bea4993f.85f4d8",
+        "x": 160,
+        "y": 340,
+        "wires": [
+            [
+                "c5e94b65587a5ecf"
+            ]
+        ]
+    },
+    {
+        "id": "c5e94b65587a5ecf",
+        "type": "function",
+        "z": "1508a3e4153b14d5",
+        "g": "3d64281ef79e1ad0",
+        "name": "",
+        "func": "function decode(b) {\n var a, e = {},o\n d = b.split(\"\")\n c = d[0],\n f = c,\n g = [c],\n h = 256;\n o = h;\n for (b = 1; b < d.length; b++) a = d[b].charCodeAt(0), a = h > a ? d[b] : e[a] ? e[a] : f + c, g.push(a), c = a.charAt(0), e[o] = f + c, o++, f = a;\n return g.join(\"\")\n}\n\nreturn {\n payload: decode(msg.payload)\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 340,
+        "wires": [
+            [
+                "d2a708f3187a47cd"
+            ]
+        ]
+    },
+    {
+        "id": "748b3a057a000196",
+        "type": "function",
+        "z": "1508a3e4153b14d5",
+        "g": "3d64281ef79e1ad0",
+        "name": "",
+        "func": "if ((msg.topic) === 'lightning'){\n   return {payload: 'Warning, Lightning Alert'};\n} else return null;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 340,
+        "wires": [
+            [
+                "26076086bf8fc333"
+            ]
+        ]
+    },
+    {
+        "id": "d2a708f3187a47cd",
+        "type": "json",
+        "z": "1508a3e4153b14d5",
+        "g": "3d64281ef79e1ad0",
+        "name": "convert JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 140,
+        "y": 420,
+        "wires": [
+            [
+                "0513a57b4e4d0dcd"
+            ]
+        ]
+    },
+    {
+        "id": "0513a57b4e4d0dcd",
+        "type": "function",
+        "z": "1508a3e4153b14d5",
+        "g": "3d64281ef79e1ad0",
+        "name": "Change LAT LON HERE",
+        "func": "function arePointsNear(checkPoint, centerPoint) {\n var ky = 40000 / 360;\n var kx = Math.cos(Math.PI * centerPoint.lat / 180.0) * ky;\n var dx = Math.abs(centerPoint.lng - checkPoint.lng) * kx;\n var dy = Math.abs(centerPoint.lat - checkPoint.lat) * ky;\n return Math.sqrt(dx * dx + dy * dy);\n}\n\nvar strike = { lat: msg.payload.lat, lng: msg.payload.lon };\n\n// set latitute + longitude accordingly\n// change HERE \nvar home = { lat: 39.555305, lng: -104.870609 };\nvar n = arePointsNear(strike, home);\nn = Math.round(n);\n\n// '10' = km radius, replace with whatever km radius you'd like\nif(n <= 25) {\n // return distance to strike if strike is in defined radius\n msg =  {payload: '<' + n + ' Km', color: \"#c40606\", topic: 'lightning'};\n//    return msg;\n return [[msg],[]]\n\n} else\n msg =   {payload: '> 25 Km', color: \"#14f00c\",};\n// return msg;\n return [[ ],[ msg]];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 420,
+        "wires": [
+            [
+                "4a0745f346aa72f1",
+                "e3a5c21d8df5db34"
+            ],
+            [
+                "228b071b1b8dbacd"
+            ]
+        ]
+    },
+    {
+        "id": "cc7cb9c32180cb28",
+        "type": "function",
+        "z": "1508a3e4153b14d5",
+        "g": "3d64281ef79e1ad0",
+        "name": "",
+        "func": "return { payload: '{ \"a\": 542 }'};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 260,
+        "wires": [
+            [
+                "cf5e508a778ca2f1"
+            ]
+        ]
+    },
+    {
+        "id": "4a0745f346aa72f1",
+        "type": "rbe",
+        "z": "1508a3e4153b14d5",
+        "g": "3d64281ef79e1ad0",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 550,
+        "y": 340,
+        "wires": [
+            [
+                "748b3a057a000196"
+            ]
+        ]
+    },
+    {
+        "id": "228b071b1b8dbacd",
+        "type": "delay",
+        "z": "1508a3e4153b14d5",
+        "g": "3d64281ef79e1ad0",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "30",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 420,
+        "y": 520,
+        "wires": [
+            [
+                "e3a5c21d8df5db34"
+            ]
+        ]
+    },
+    {
+        "id": "73515fdd0cf3bfe7",
+        "type": "comment",
+        "z": "1508a3e4153b14d5",
+        "g": "3c4c5df667217faa",
+        "name": "Header Clock Toolbar",
+        "info": "# Contest Calls/Score with UTC Clock\n* Display Contest Calls/Scores for calls selected with calls entered in Online Scorboard in Configuration and Resets tab\n* Variable data is picked up on Online Scoreboard flow with UI nodes.\n---\n\n# Contest Calls&Score\nContest Call Displays Call and Score data for the following variables:\n* contestname\n* callsign\n* chasecall1\n* chasecall2\n* chasecall3\n* chasecall4\n\n---\n\n\n## UTC Clock\nCurrent format is 4/13/22, 20:00 UTC\n\n`        function displayTime() {\n        var d = Date();\n        var options = { timeZone: 'UTC', timeZoneName: 'short', year: '2-digit', month: 'numeric', day: 'numeric', hourCycle:\n        'h23', hour: `2-digit`, minute: `2-digit`};\n        p.text(new Date().toLocaleString('en-US', options));\n        }`\n    The format is based on toLocaleString based formats. See documentation <a href=\"https://www.w3schools.com/jsref/jsref_tolocalestring.asp\">W3_Schools_toLocaleString</a>",
+        "x": 400,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "26076086bf8fc333",
+        "type": "ui_audio",
+        "z": "1508a3e4153b14d5",
+        "g": "3d64281ef79e1ad0",
+        "name": "",
+        "group": "812bdcd1b6879589",
+        "voice": "Microsoft Zira - English (United States)",
+        "always": true,
+        "x": 840,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "67e839020acdecde",
+        "type": "ui_ui_control",
+        "z": "1508a3e4153b14d5",
+        "g": "3d64281ef79e1ad0",
+        "name": "",
+        "events": "all",
+        "x": 220,
+        "y": 280,
+        "wires": [
+            [
+                "cc7cb9c32180cb28"
+            ]
+        ]
+    },
+    {
+        "id": "e3a5c21d8df5db34",
+        "type": "ui_template",
+        "z": "1508a3e4153b14d5",
+        "g": "3d64281ef79e1ad0",
+        "group": "812bdcd1b6879589",
+        "name": "addToOneGrpPerDashboardPage",
+        "order": 19,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    (function(scope) {\n        //hide this card. NOTE: 4b689f7473831a84 is the Node id as \n        //seen in the INFO panel on the sidebar when you select this node\n         $('[node-id=\"e3a5c21d8df5db34\"]').hide();\n        scope.$watch('msg', function(msg) {\n            if (msg.payload.length !== 0) {\n                $(\"#header-icon\").html(\"<i class='fa fa-bolt fa-2x' aria-hidden='true'></i>\").css(\"color\",(msg.color));\n                $(\"#header-lightning\").text(msg.payload); \n            }\n        });\n    })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 740,
+        "y": 400,
+        "wires": [
+            [
+                "082989859eb6f588"
+            ]
+        ]
+    },
+    {
+        "id": "082989859eb6f588",
+        "type": "ui_template",
+        "z": "1508a3e4153b14d5",
+        "g": "3d64281ef79e1ad0",
+        "group": "b1cd10a7.e2eab",
+        "name": "addToOneGrpPerDashboardPage",
+        "order": 19,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    (function(scope) {\n        //hide this card. NOTE: 4b689f7473831a84 is the Node id as \n        //seen in the INFO panel on the sidebar when you select this node\n         $('[node-id=\"082989859eb6f588\"]').hide();\n        scope.$watch('msg', function(msg) {\n            if (msg.payload.length !== 0) {\n                $(\"#header-icon\").html(\"<i class='fa fa-bolt fa-2x' aria-hidden='true'></i>\").css(\"color\",(msg.color));\n                $(\"#header-lightning\").text(msg.payload); \n            }\n        });\n    })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 740,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "426a619c3b098feb",
+        "type": "ui_template",
+        "z": "1508a3e4153b14d5",
+        "g": "3c4c5df667217faa",
+        "group": "e357ef02.ef3cb",
+        "name": "Lightning/Clock",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "format": "<script id=\"toolbar\" type=\"text/javascript\">\n    var clockInterval;\n    $(function () {\n        if (clockInterval) return;\n\n      \n        //add lightning\n        var div1 = $('<div/>');\n        let l1 = $('<p/ id=\"header-icon\">');\n        let l2 = $('<p/ id=\"header-lightning\">');\n        \n        div1.append(l1);\n        div1.append(l2);\n        \n        div1[0].style.width = 'auto';\n        div1[0].style.margin = 'auto';\n        div1[0].style.display = 'flex';\n        div1[0].style.color = 'white';\n        \n        l1[0].style.margin = 'auto';\n        l2[0].style.margin = '5px';\n        l2[0].style.color = 'white';\n    \n     \n        // add clock\n        var div2 = $('<div/>');\n        var p = $('<p/>');\n\n        div2.append(p);\n        div2[0].style.margin = '5px 5px 5px auto';\n        div2[0].style.display = 'flex';\n\n\n        function displayTime() {\n            var d = Date();\n            var options = { timeZone: 'UTC', timeZoneName: 'short',  hourCycle: 'h23', hour: `2-digit`, minute: `2-digit`, second: `2-digit`};\n            p.text(new Date().toLocaleString('en-US', options));\n        }\n        \n        clockInterval = setInterval(displayTime, 1000);\n\n        //add to toolbar when it's available\n        var addToToolbarTimer;\n        \n        function addToToolbar() {\n            var toolbar = $('.md-toolbar-tools');\n            \n            if(!toolbar.length) return;\n            \n            toolbar.append(div1);\n            toolbar.append(div2);\n\n            clearInterval(addToToolbarTimer);\n        }\n        addToToolbarTimer = setInterval(addToToolbar, 50);\n    });\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "className": "",
+        "x": 380,
+        "y": 120,
+        "wires": [
+            []
+        ],
+        "icon": "font-awesome/fa-list-alt",
+        "info": "# Solar / foF2 / Clock\n\n## Client Template Node in header\n\n1. solar data from Solar flow variables:  #kdx, #sfi, #Aindex, and #fof2\n2. Function for UTC clock\n\n"
+    }
+]

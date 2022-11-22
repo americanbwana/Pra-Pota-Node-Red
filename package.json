@@ -1,21 +1,12 @@
 {
-    "name": "node-red-project",
+    "name": "PraDemo",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "private": true,
-    "dependencies": {
-        "node-red-contrib-credentials": "~0.2.2",
-        "node-red-contrib-string": "~1.0.0",
-        "node-red-contrib-ui-digital-display": "~1.0.3",
-        "node-red-contrib-ui-led": "~0.4.11",
-        "node-red-contrib-ui-level": "~0.1.46",
-        "node-red-contrib-uibuilder": "~5.1.1",
-        "node-red-contrib-web-worldmap": "~2.31.0",
-        "node-red-dashboard": "~3.2.0",
-        "node-red-node-serialport": "~1.0.1",
-        "node-red-node-ui-iframe": "~0.2.1",
-        "node-red-node-ui-table": "~0.4.3",
-        "os": "^0.1.2",
-        "peerjs": "^1.4.7"
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flow.json",
+            "credentialsFile": "flow_cred.json"
+        }
     }
 }
