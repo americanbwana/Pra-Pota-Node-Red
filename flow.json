@@ -56,10 +56,10 @@
             "228b071b1b8dbacd",
             "58c390d3c5686685"
         ],
-        "x": 14,
-        "y": 199,
-        "w": 912,
-        "h": 302
+        "x": null,
+        "y": null,
+        "w": null,
+        "h": null
     },
     {
         "id": "3c4c5df667217faa",
@@ -73,24 +73,38 @@
             "426a619c3b098feb",
             "73515fdd0cf3bfe7"
         ],
-        "x": 274,
-        "y": 39,
-        "w": 252,
-        "h": 122
+        "x": null,
+        "y": null,
+        "w": null,
+        "h": null
+    },
+    {
+        "id": "bea4993f.85f4d8",
+        "type": "websocket-client",
+        "path": "wss://ws7.blitzortung.org/",
+        "tls": "621bc3fe.d747dc",
+        "wholemsg": "false",
+        "hb": "0"
+    },
+    {
+        "id": "621bc3fe.d747dc",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "",
+        "keyname": "",
+        "caname": "",
+        "servername": "",
+        "verifyservercert": false,
+        "alpnprotocol": ""
     },
     {
         "id": "671b6fb51007cada",
         "type": "sqlitedb",
         "db": "allstardb",
         "mode": "RWC"
-    },
-    {
-        "id": "2bcb3cb3a9da2758",
-        "type": "ui_tab",
-        "name": "Home",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
     },
     {
         "id": "2c8f7a1cfa0cbe54",
@@ -190,48 +204,12 @@
         }
     },
     {
-        "id": "0fe8b19804e3b7af",
-        "type": "ui_group",
-        "name": "Default",
-        "tab": "2bcb3cb3a9da2758",
-        "order": 1,
-        "disp": false,
-        "width": "20",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "bea4993f.85f4d8",
-        "type": "websocket-client",
-        "path": "wss://ws7.blitzortung.org/",
-        "tls": "621bc3fe.d747dc",
-        "wholemsg": "false",
-        "hb": "0"
-    },
-    {
-        "id": "e357ef02.ef3cb",
-        "type": "ui_group",
-        "name": "Blitzunorg 1",
-        "tab": "2bcb3cb3a9da2758",
-        "order": 2,
-        "disp": false,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "621bc3fe.d747dc",
-        "type": "tls-config",
-        "name": "",
-        "cert": "",
-        "key": "",
-        "ca": "",
-        "certname": "",
-        "keyname": "",
-        "caname": "",
-        "servername": "",
-        "verifyservercert": false,
-        "alpnprotocol": ""
+        "id": "2bcb3cb3a9da2758",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
     },
     {
         "id": "8f4542aa.faf2",
@@ -243,117 +221,26 @@
         "hidden": false
     },
     {
-        "id": "a82d4a69483d1754",
-        "type": "ui_base",
-        "theme": {
-            "name": "theme-light",
-            "lightTheme": {
-                "default": "#0094CE",
-                "baseColor": "#0094CE",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": true,
-                "reset": false
-            },
-            "darkTheme": {
-                "default": "#097479",
-                "baseColor": "#097479",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
-            },
-            "customTheme": {
-                "name": "Untitled Theme 1",
-                "default": "#4B7930",
-                "baseColor": "#4B7930",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-            },
-            "themeState": {
-                "base-color": {
-                    "default": "#0094CE",
-                    "value": "#0094CE",
-                    "edited": false
-                },
-                "page-titlebar-backgroundColor": {
-                    "value": "#0094CE",
-                    "edited": false
-                },
-                "page-backgroundColor": {
-                    "value": "#fafafa",
-                    "edited": false
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-textColor": {
-                    "value": "#1bbfff",
-                    "edited": false
-                },
-                "group-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "widget-textColor": {
-                    "value": "#111111",
-                    "edited": false
-                },
-                "widget-backgroundColor": {
-                    "value": "#0094ce",
-                    "edited": false
-                },
-                "widget-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "base-font": {
-                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-                }
-            },
-            "angularTheme": {
-                "primary": "indigo",
-                "accents": "blue",
-                "warn": "red",
-                "background": "grey",
-                "palette": "light"
-            }
-        },
-        "site": {
-            "name": "Node-RED Dashboard",
-            "hideToolbar": "false",
-            "allowSwipe": "false",
-            "lockMenu": "false",
-            "allowTempTheme": "true",
-            "dateFormat": "DD/MM/YYYY",
-            "sizes": {
-                "sx": 48,
-                "sy": 48,
-                "gx": 6,
-                "gy": 6,
-                "cx": 6,
-                "cy": 6,
-                "px": 0,
-                "py": 0
-            }
-        }
+        "id": "0fe8b19804e3b7af",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "2bcb3cb3a9da2758",
+        "order": 1,
+        "disp": false,
+        "width": "20",
+        "collapse": false,
+        "className": ""
     },
     {
-        "id": "3975cd76ad7ef3e9",
-        "type": "sqlite",
-        "z": "1028f2c55fc7714c",
-        "mydb": "671b6fb51007cada",
-        "sqlquery": "msg.topic",
-        "sql": "",
-        "name": "AllstarDB",
-        "x": 1000,
-        "y": 340,
-        "wires": [
-            [
-                "3df27b56f3154371"
-            ]
-        ]
+        "id": "e357ef02.ef3cb",
+        "type": "ui_group",
+        "name": "Blitzunorg 1",
+        "tab": "2bcb3cb3a9da2758",
+        "order": 2,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "b3978eb02795dec2",
@@ -371,12 +258,12 @@
         ],
         "repeat": "",
         "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
+        "once": true,
+        "onceDelay": "5",
         "topic": "CREATE TABLE IF NOT EXISTS mapData(nodeNr INT  PRIMARY KEY NOT NULL, call TEXT, lat REAL, lon REAL);",
         "payload": "",
         "payloadType": "date",
-        "x": 520,
+        "x": 530,
         "y": 300,
         "wires": [
             [
@@ -400,12 +287,12 @@
         ],
         "repeat": "",
         "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
+        "once": true,
+        "onceDelay": "10",
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 340,
+        "x": 350,
         "y": 600,
         "wires": [
             [
@@ -530,6 +417,22 @@
         "x": 1100,
         "y": 800,
         "wires": []
+    },
+    {
+        "id": "3975cd76ad7ef3e9",
+        "type": "sqlite",
+        "z": "1028f2c55fc7714c",
+        "mydb": "671b6fb51007cada",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "AllstarDB",
+        "x": 1000,
+        "y": 340,
+        "wires": [
+            [
+                "3df27b56f3154371"
+            ]
+        ]
     },
     {
         "id": "159b709d64583e75",
@@ -765,23 +668,6 @@
         "wires": []
     },
     {
-        "id": "0a834e7d5d51643e",
-        "type": "sqlite",
-        "z": "73753423a2986dfc",
-        "mydb": "671b6fb51007cada",
-        "sqlquery": "msg.topic",
-        "sql": "",
-        "name": "Get node data",
-        "x": 240,
-        "y": 620,
-        "wires": [
-            [
-                "7c5e6a96811e54f1",
-                "53f7d79a436ea877"
-            ]
-        ]
-    },
-    {
         "id": "7c5e6a96811e54f1",
         "type": "debug",
         "z": "73753423a2986dfc",
@@ -795,38 +681,6 @@
         "statusType": "auto",
         "x": 300,
         "y": 780,
-        "wires": []
-    },
-    {
-        "id": "e89e7abb73db0a93",
-        "type": "worldmap",
-        "z": "73753423a2986dfc",
-        "name": "",
-        "lat": "39.555363",
-        "lon": "-104.870490",
-        "zoom": "6",
-        "layer": "EsriT",
-        "cluster": "4",
-        "maxage": "",
-        "usermenu": "show",
-        "layers": "show",
-        "panit": "false",
-        "panlock": "false",
-        "zoomlock": "false",
-        "hiderightclick": "false",
-        "coords": "none",
-        "showgrid": "false",
-        "showruler": "false",
-        "allowFileDrop": "false",
-        "path": "/worldmap",
-        "overlist": "RA,DN",
-        "maplist": "EsriT",
-        "mapname": "",
-        "mapurl": "",
-        "mapopt": "",
-        "mapwms": false,
-        "x": 860,
-        "y": 640,
         "wires": []
     },
     {
@@ -864,6 +718,55 @@
         "statusType": "auto",
         "x": 790,
         "y": 720,
+        "wires": []
+    },
+    {
+        "id": "0a834e7d5d51643e",
+        "type": "sqlite",
+        "z": "73753423a2986dfc",
+        "mydb": "671b6fb51007cada",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "Get node data",
+        "x": 240,
+        "y": 620,
+        "wires": [
+            [
+                "7c5e6a96811e54f1",
+                "53f7d79a436ea877"
+            ]
+        ]
+    },
+    {
+        "id": "e89e7abb73db0a93",
+        "type": "worldmap",
+        "z": "73753423a2986dfc",
+        "name": "",
+        "lat": "39.555363",
+        "lon": "-104.870490",
+        "zoom": "6",
+        "layer": "EsriT",
+        "cluster": "4",
+        "maxage": "",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "false",
+        "coords": "none",
+        "showgrid": "false",
+        "showruler": "false",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "RA,DN",
+        "maplist": "EsriT",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 860,
+        "y": 640,
         "wires": []
     },
     {
@@ -978,19 +881,6 @@
         ]
     },
     {
-        "id": "26076086bf8fc333",
-        "type": "ui_audio",
-        "z": "1508a3e4153b14d5",
-        "g": "3d64281ef79e1ad0",
-        "name": "",
-        "group": "e357ef02.ef3cb",
-        "voice": "Microsoft Zira - English (United States)",
-        "always": true,
-        "x": 840,
-        "y": 340,
-        "wires": []
-    },
-    {
         "id": "d2a708f3187a47cd",
         "type": "json",
         "z": "1508a3e4153b14d5",
@@ -1028,67 +918,6 @@
             ],
             [
                 "228b071b1b8dbacd"
-            ]
-        ]
-    },
-    {
-        "id": "e3a5c21d8df5db34",
-        "type": "ui_template",
-        "z": "1508a3e4153b14d5",
-        "g": "3d64281ef79e1ad0",
-        "group": "0fe8b19804e3b7af",
-        "name": "addToOneGrpPerDashboardPage",
-        "order": 19,
-        "width": 0,
-        "height": 0,
-        "format": "<script>\n    (function(scope) {\n        //hide this card. NOTE: 4b689f7473831a84 is the Node id as \n        //seen in the INFO panel on the sidebar when you select this node\n         $('[node-id=\"e3a5c21d8df5db34\"]').hide();\n        scope.$watch('msg', function(msg) {\n            if (msg.payload.length !== 0) {\n                $(\"#header-icon\").html(\"<i class='fa fa-bolt fa-2x' aria-hidden='true'></i>\").css(\"color\",(msg.color));\n                $(\"#header-lightning\").text(msg.payload); \n            }\n        });\n    })(scope);\n</script>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "className": "",
-        "x": 740,
-        "y": 400,
-        "wires": [
-            [
-                "082989859eb6f588"
-            ]
-        ]
-    },
-    {
-        "id": "082989859eb6f588",
-        "type": "ui_template",
-        "z": "1508a3e4153b14d5",
-        "g": "3d64281ef79e1ad0",
-        "group": "0fe8b19804e3b7af",
-        "name": "addToOneGrpPerDashboardPage",
-        "order": 19,
-        "width": 0,
-        "height": 0,
-        "format": "<script>\n    (function(scope) {\n        //hide this card. NOTE: 4b689f7473831a84 is the Node id as \n        //seen in the INFO panel on the sidebar when you select this node\n         $('[node-id=\"082989859eb6f588\"]').hide();\n        scope.$watch('msg', function(msg) {\n            if (msg.payload.length !== 0) {\n                $(\"#header-icon\").html(\"<i class='fa fa-bolt fa-2x' aria-hidden='true'></i>\").css(\"color\",(msg.color));\n                $(\"#header-lightning\").text(msg.payload); \n            }\n        });\n    })(scope);\n</script>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 740,
-        "y": 460,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "67e839020acdecde",
-        "type": "ui_ui_control",
-        "z": "1508a3e4153b14d5",
-        "g": "3d64281ef79e1ad0",
-        "name": "",
-        "events": "all",
-        "x": 220,
-        "y": 280,
-        "wires": [
-            [
-                "cc7cb9c32180cb28"
             ]
         ]
     },
@@ -1160,30 +989,6 @@
         ]
     },
     {
-        "id": "426a619c3b098feb",
-        "type": "ui_template",
-        "z": "1508a3e4153b14d5",
-        "g": "3c4c5df667217faa",
-        "group": "e357ef02.ef3cb",
-        "name": "Lightning/Clock",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "format": "<script id=\"toolbar\" type=\"text/javascript\">\n    var clockInterval;\n    $(function () {\n        if (clockInterval) return;\n\n      \n        //add lightning\n        var div1 = $('<div/>');\n        let l1 = $('<p/ id=\"header-icon\">');\n        let l2 = $('<p/ id=\"header-lightning\">');\n        \n        div1.append(l1);\n        div1.append(l2);\n        \n        div1[0].style.width = 'auto';\n        div1[0].style.margin = 'auto';\n        div1[0].style.display = 'flex';\n        div1[0].style.color = 'white';\n        \n        l1[0].style.margin = 'auto';\n        l2[0].style.margin = '5px';\n        l2[0].style.color = 'white';\n    \n     \n        // add clock\n        var div2 = $('<div/>');\n        var p = $('<p/>');\n\n        div2.append(p);\n        div2[0].style.margin = '5px 5px 5px auto';\n        div2[0].style.display = 'flex';\n\n\n        function displayTime() {\n            var d = Date();\n            var options = { timeZone: 'UTC', timeZoneName: 'short',  hourCycle: 'h23', hour: `2-digit`, minute: `2-digit`, second: `2-digit`};\n            p.text(new Date().toLocaleString('en-US', options));\n        }\n        \n        clockInterval = setInterval(displayTime, 1000);\n\n        //add to toolbar when it's available\n        var addToToolbarTimer;\n        \n        function addToToolbar() {\n            var toolbar = $('.md-toolbar-tools');\n            \n            if(!toolbar.length) return;\n            \n            toolbar.append(div1);\n            toolbar.append(div2);\n\n            clearInterval(addToToolbarTimer);\n        }\n        addToToolbarTimer = setInterval(addToToolbar, 50);\n    });\n</script>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "global",
-        "className": "",
-        "x": 380,
-        "y": 120,
-        "wires": [
-            []
-        ],
-        "icon": "font-awesome/fa-list-alt",
-        "info": "# Solar / foF2 / Clock\n\n## Client Template Node in header\n\n1. solar data from Solar flow variables:  #kdx, #sfi, #Aindex, and #fof2\n2. Function for UTC clock\n\n"
-    },
-    {
         "id": "73515fdd0cf3bfe7",
         "type": "comment",
         "z": "1508a3e4153b14d5",
@@ -1204,5 +1009,98 @@
         "x": 310,
         "y": 460,
         "wires": []
+    },
+    {
+        "id": "26076086bf8fc333",
+        "type": "ui_audio",
+        "z": "1508a3e4153b14d5",
+        "name": "",
+        "group": "e357ef02.ef3cb",
+        "voice": "Microsoft Zira - English (United States)",
+        "always": true,
+        "x": 840,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "67e839020acdecde",
+        "type": "ui_ui_control",
+        "z": "1508a3e4153b14d5",
+        "name": "",
+        "events": "all",
+        "x": 220,
+        "y": 280,
+        "wires": [
+            [
+                "cc7cb9c32180cb28"
+            ]
+        ]
+    },
+    {
+        "id": "e3a5c21d8df5db34",
+        "type": "ui_template",
+        "z": "1508a3e4153b14d5",
+        "group": "0fe8b19804e3b7af",
+        "name": "addToOneGrpPerDashboardPage",
+        "order": 19,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    (function(scope) {\n        //hide this card. NOTE: 4b689f7473831a84 is the Node id as \n        //seen in the INFO panel on the sidebar when you select this node\n         $('[node-id=\"e3a5c21d8df5db34\"]').hide();\n        scope.$watch('msg', function(msg) {\n            if (msg.payload.length !== 0) {\n                $(\"#header-icon\").html(\"<i class='fa fa-bolt fa-2x' aria-hidden='true'></i>\").css(\"color\",(msg.color));\n                $(\"#header-lightning\").text(msg.payload); \n            }\n        });\n    })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 740,
+        "y": 400,
+        "wires": [
+            [
+                "082989859eb6f588"
+            ]
+        ]
+    },
+    {
+        "id": "082989859eb6f588",
+        "type": "ui_template",
+        "z": "1508a3e4153b14d5",
+        "group": "0fe8b19804e3b7af",
+        "name": "addToOneGrpPerDashboardPage",
+        "order": 19,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    (function(scope) {\n        //hide this card. NOTE: 4b689f7473831a84 is the Node id as \n        //seen in the INFO panel on the sidebar when you select this node\n         $('[node-id=\"082989859eb6f588\"]').hide();\n        scope.$watch('msg', function(msg) {\n            if (msg.payload.length !== 0) {\n                $(\"#header-icon\").html(\"<i class='fa fa-bolt fa-2x' aria-hidden='true'></i>\").css(\"color\",(msg.color));\n                $(\"#header-lightning\").text(msg.payload); \n            }\n        });\n    })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 740,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "426a619c3b098feb",
+        "type": "ui_template",
+        "z": "1508a3e4153b14d5",
+        "group": "e357ef02.ef3cb",
+        "name": "Lightning/Clock",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "format": "<script id=\"toolbar\" type=\"text/javascript\">\n    var clockInterval;\n    $(function () {\n        if (clockInterval) return;\n\n      \n        //add lightning\n        var div1 = $('<div/>');\n        let l1 = $('<p/ id=\"header-icon\">');\n        let l2 = $('<p/ id=\"header-lightning\">');\n        \n        div1.append(l1);\n        div1.append(l2);\n        \n        div1[0].style.width = 'auto';\n        div1[0].style.margin = 'auto';\n        div1[0].style.display = 'flex';\n        div1[0].style.color = 'white';\n        \n        l1[0].style.margin = 'auto';\n        l2[0].style.margin = '5px';\n        l2[0].style.color = 'white';\n    \n     \n        // add clock\n        var div2 = $('<div/>');\n        var p = $('<p/>');\n\n        div2.append(p);\n        div2[0].style.margin = '5px 5px 5px auto';\n        div2[0].style.display = 'flex';\n\n\n        function displayTime() {\n            var d = Date();\n            var options = { timeZone: 'UTC', timeZoneName: 'short',  hourCycle: 'h23', hour: `2-digit`, minute: `2-digit`, second: `2-digit`};\n            p.text(new Date().toLocaleString('en-US', options));\n        }\n        \n        clockInterval = setInterval(displayTime, 1000);\n\n        //add to toolbar when it's available\n        var addToToolbarTimer;\n        \n        function addToToolbar() {\n            var toolbar = $('.md-toolbar-tools');\n            \n            if(!toolbar.length) return;\n            \n            toolbar.append(div1);\n            toolbar.append(div2);\n\n            clearInterval(addToToolbarTimer);\n        }\n        addToToolbarTimer = setInterval(addToToolbar, 50);\n    });\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "className": "",
+        "x": 380,
+        "y": 120,
+        "wires": [
+            []
+        ],
+        "icon": "font-awesome/fa-list-alt",
+        "info": "# Solar / foF2 / Clock\n\n## Client Template Node in header\n\n1. solar data from Solar flow variables:  #kdx, #sfi, #Aindex, and #fof2\n2. Function for UTC clock\n\n"
     }
 ]
